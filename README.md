@@ -1,6 +1,4 @@
-# Assignment-Starter-Repo-Template
-
-TODO: Update the above to your repo name
+# M12 T1: CSV Import to Class Object Assignment
 
 ## Instructions for students
 
@@ -9,4 +7,9 @@ TODO: Update the above to your repo name
 
 ### Directions - Copy/Pasted from Canvas
 
-TODO
+The purpose of this assignment is for you to:
+
+* pull information from an external source (in this case a CSV file, but can/could be a database, etc)
+* create an object to place that information into
+* parse several of the items (in this case a dictionary) and use it to calculate a total population
+

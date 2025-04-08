@@ -14,8 +14,8 @@ def test_main_return_value():
     from assignment import main
 
     total_population = main()
-    expected_values = [3046355, "3046355", "3,046,355"]
-    assert total_population in expected_values, "DMACC Student, the return value of main should be one of the following: 3046355, '3046355', or '3,046,355'."
+    expected_values = [3046355, 3046355.0, "3046355", "3,046,355"]
+    assert total_population in expected_values, "DMACC Student, the return value of main should be one of the following: 3046355, '3046355', or '3,046,355'. Recieved " + str(total_population)
 
 if __name__ == "__main__":
     pytest.main()

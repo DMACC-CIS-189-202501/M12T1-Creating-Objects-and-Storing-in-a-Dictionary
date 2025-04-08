@@ -1,7 +1,5 @@
 # TODO 1: Delete this line and put your docstring here
 
-
-
 import csv
 class County:
 
@@ -46,7 +44,7 @@ def read_csv_to_county_dictionary():
             # TODO 3: Write this code to read in the lines; as a hint this is what you did in countyDemos
             # counties[d["county"]] = CountyDemos(d["population"], d["nbr_households"])
             # Note: There is a header row you may or may not need to skip, and 2 rows that does not contain a rank
-            # you will want to skip those; something like if rank is equal to None continue else add to counties dict
+            # you will want to skip those; something like if rank is equal to None or empty string continue else add to counties dict
             
             #Placeholder
             pass
@@ -65,9 +63,10 @@ def main():
     #    for key in county:
     #       pop_sum += int(dcounties[key].population.replace(',',''))
     #    print(pop_sum)
-
+    # However, you have a conveneience method of get_population_as_float
 
     # return the population
+    pass
 
 
 # Bonus: If you want to push yourself and your understanding; how would you change/modify/create a new function similar to the above that does the median household income instead of total population?
